@@ -4,6 +4,22 @@
 # in order to complete the rest of this course and be ready for the next course!
 
 
+# takes in argument, name, and outputs message
+def introduction(name)
+  puts "Hi, my name is #{name}"
+end
+
+# takes in 2 arguments, name & language, and outputs message
+def introduction_with_language(name, language)
+  puts "Hi, my name is #{name} and I am learning to program in #{language}"
+end
+
+
+# takes in 2 arguments, name & language (optional), and outputs message
+def introduction_with_language(name, language = 'Ruby')
+  puts "Hi, my name is #{name} and I am learning to program in #{language}"
+end
+
 
 
 
